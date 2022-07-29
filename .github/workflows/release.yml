@@ -7,7 +7,7 @@ on:
 
 jobs:
   release:
-    if: startsWith(github.repository, 'spinnaker/')
+    if: startsWith(github.repository, 'nktks/')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
